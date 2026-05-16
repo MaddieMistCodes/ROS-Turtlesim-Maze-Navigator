@@ -25,7 +25,7 @@ When running this project, at least three terminals will need to be running.
 roscore
 ### Terminal 2 - Turtlesim 
 rosrun turtlesim turtlesim_node
-### Terminal 3 - 
+### Terminal 3 - Run Main.py
 python3 main.py  
 ** Ensure to naviagte to the source of the file in the Linux workspace before running this
 
