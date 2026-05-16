@@ -1,7 +1,7 @@
 # ROS-Turtlesim-Maze-Navigator
 This project is made using ROS and the turtlesim package. The application randomly chooses one of the three randomly defined maps, and the turtle navigates its surroundings using a Left hand First algorithm along with the use of a stack for backtracking. A catkin workspace was used to organise the environment. 
 
-## Tech Stacl
+## Tech Stack
 ### Operating System
 - Ubunut 20.04 via WSL
 ### Middleware
@@ -23,7 +23,7 @@ To install turtlesim with ROS Noetic, you can use the following commands:
 When running this project, at least three terminals will need to be running.
 ### Terminal 1 - ROS Master
 roscore
-### Termianl 2 - Turtlesim 
+### Terminal 2 - Turtlesim 
 rosrun turtlesim turtlesim_node
 ### Terminal 3 - 
 python3 main.py  
@@ -33,7 +33,7 @@ Ensure to source the workspace either automatically or manually using 'source /o
 I used a catkin workspace and sourced after a 'catkin_make' using 'source devel/setup.bash'
 
 ## When Running
-The third termianl will inform the user which maze was randomly chosen, inform when maze is drawn, inform the user of the start and end goal, print the current location and print the moving to location along with the turn required.  
+The third terminal will inform the user which maze was randomly chosen, inform when maze is drawn, inform the user of the start and end goal, print the current location and print the moving to location along with the turn required.  
 
 <img width="800" height="200" alt="image" src="https://github.com/user-attachments/assets/ae07d02d-e92f-4c2f-b1d3-dd8a05dbb6d6" />  
 
